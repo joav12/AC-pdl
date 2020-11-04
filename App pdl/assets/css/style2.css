@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #212121;
+    height: 8vh;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    z-index: 10;
+    justify-content: space-between;
+}
+
+nav {
+    display: block;
+    width: 50%;
+}
+
+.logo {
+    display: block;
+}
+
+.nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    padding:10px;
+}
+
+.divi{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    padding: 5%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.alinhar-texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.cor-fundo {
+    background: rgb(0,7,46);
+    background: -moz-linear-gradient(left,  rgb(0,7,46) 0%, rgb(0,30,83) 25%, rgb(0,105,154) 75%, rgb(0,130,170) 100%);
+    background: -webkit-linear-gradient(left,  rgb(0,7,46) 0%,rgb(0,30,83) 25%,rgb(0,105,154) 75%,rgb(0,130,170) 100%);
+    background: linear-gradient(to right,  rgb(0,7,46) 0%,rgb(0,30,83) 25%,rgb(0,105,154) 75%,rgb(0,130,170) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00072e', endColorstr='#009bb8',GradientType=1 );
+}
+
+.fundo-branco{
+    background-color: aliceblue;
+}
+
+.video-centro{
+    display: flex;
+    justify-content: center;
+}
+.copyrite{
+    display: flex;
+    justify-content: end;
+}

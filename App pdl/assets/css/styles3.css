@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: #212121;
+    height: 8vh;
+    align-items: center;
+    width: 100%;
+    padding: 0 5%;
+    position: fixed;
+    z-index: 10;
+
+    justify-content: space-between;
+}
+
+nav {
+    display: block;
+    width: 50%;
+}
+
+.nav-item {
+    color: #ffffff;
+    text-decoration: none;
+    padding:10px;
+}
+
+.cor-fundo {
+    background: rgb(0,7,46);
+    background: -moz-linear-gradient(left,  rgb(0,7,46) 0%, rgb(0,30,83) 25%, rgb(0,105,154) 75%, rgb(0,130,170) 100%);
+    background: -webkit-linear-gradient(left,  rgb(0,7,46) 0%,rgb(0,30,83) 25%,rgb(0,105,154) 75%,rgb(0,130,170) 100%);
+    background: linear-gradient(to right,  rgb(0,7,46) 0%,rgb(0,30,83) 25%,rgb(0,105,154) 75%,rgb(0,130,170) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00072e', endColorstr='#009bb8',GradientType=1 );
+}
+
+.alinhar-caixa{
+    padding-top: 15%;
+}
+
+.caixa {
+    padding: 20px;
+}
+
+.conteiner{
+    max-width: 600px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.caixa-h4 {
+    padding: 5px;
+}
+
+.cadastro{
+    height: 400;
+    padding: 20px;
+    margin: 5%;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+
+.margin-x {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.linha {
+    display: flex;
+    flex-direction: column;
+}
+
+.botão{
+    width: 100px;
+    height: 20px;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
